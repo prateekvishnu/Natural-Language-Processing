@@ -4,7 +4,6 @@ from nltk.tokenize import word_tokenize
 example_sentence = "This is an example showing how to remove stop words from a sentence."
 
 #nltk package contains a stop words corpus that can be imported
-
 stop_words = set(stopwords.words("english"))
 
 words = word_tokenize(example_sentence)
